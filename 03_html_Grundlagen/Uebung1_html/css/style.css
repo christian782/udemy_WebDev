@@ -1,0 +1,33 @@
+body{
+    background-color: lightgray;
+}
+nav{
+    display: inline;
+}
+nav a{
+    margin: 2px 5px 5px 2px;
+}
+.histroy{
+    background-color: rgb(22, 162, 12);
+    padding: 5px;
+}
+
+.histroy h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.histroy p{
+ 
+ margin: 2px;
+}
+
+.aktuelles h3{
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery img{
+    width: 500px;
+}
