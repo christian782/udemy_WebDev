@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiseformaular</title>
+</head>
+<body>
+    <form action="anmelden.php">
+        <label for="nname">Nachname:</label> <input type="text" name="nname" id="nname" maxlength="15" placeholder="Dein Nachname"><br>
+        <label for="nname">Vorname:</label> <input type="text" name="vname" id="vname" maxlength="15" placeholder="Dein Vorname"><br>
+        <label for="age">Alter:</label> <input type="number" name="age" id="age" min="12" max="120"> <br>
+        <label for="email">E-Mail:</label> <input type="email" name="email" id="email" autocomplete="off"> <br>
+        <hr>
+        <fieldset>
+            <label for="traveltyp">bevorzugte Reiseoption:</label> <br>
+            <input type="radio" name="car" id="car"> Auto <br>
+            <input type="radio" name="fly" id="fly"> Flug <br>
+            <input type="radio" name="train" id="train"> Zug <br>
+            <input type="radio" name="ship" id="ship"> Schiff <br>
+        </fieldset>
+
+        <input type="submit" value="Anmelden">
+    </form>
+</body>
+</html>

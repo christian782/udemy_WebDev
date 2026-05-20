@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Formualr</h2>
+    <form action="post">
+       <label for="vname">Vorname</label> <input type="text" name="vname" id="vname" placeholder="Max"> <br>
+       <label for="nname">Nachname</label> <input type="text" name="nname" id="nname" placeholder="Mustermann"> <br>
+       <label for="email">E-Mail</label> <input type="email" name="email" id="email" placeholder="name@gmail.com"> <br>
+       <label for="bday">Geburtstag</label> <input type="date" name="bday" id="bday" placeholder="01.01.2026"> <br>
+       
+       <fieldset id="gender">
+                <label for="gender">Geschlecht:</label> <br>
+                <input type="radio" name="gender" id="male" value="male"> Männlich <br>
+                <input type="radio" name="gender" id="female" value="female" > Weiblich <br>
+                <input type="radio" name="gender" id="ohter" value="other" checked> ohne Angabe <br>
+       </fieldset> 
+       <hr>
+            <fieldset id="membership">
+                <label for="membertyp">Mitgliedschaft auswählen:</label> <br>
+                <input type="radio" name="Normal" id="normal" value="normal"> Standard-User <br>
+                <input type="radio" name="Normal" id="pro" value="pro" checked> Pro-User <br>
+                <input type="radio" name="Normal" id="ultrapro" value="ultra"> Ultra-User <br>
+                <input type="radio" name="Normal" id="elite" value="elite"> Elite-User <br>
+            </fieldset>
+            <fieldset>
+                <label for="options">Optionen</label> <br>
+                <input type="checkbox" name="newsletter" id="newsletter"> Newsletter per E-Mail <br>
+                <input type="checkbox" name="offers" id="offers"> Information über neue Angebote <br>
+                <input type="checkbox" name="updates" id="updates"> Information über Softwareupdates <br>
+            </fieldset>
+       <hr>
+       <label for="passw1">Passwort:</label> <input type="password" name="passw1" id="passw1">
+       <label for="passw2">Passwort wiederholen:</label><input type="password" name="passw2" id="passw2">
+
+       <input type="submit" value="Anmelden">
+    </form>
+</body>
+</html>
