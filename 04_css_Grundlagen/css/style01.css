@@ -1,0 +1,70 @@
+/*body der Website*/
+body{
+    background: url("/04_css_Grundlagen/pic/sbringser-cat-618470_1920.jpg") no-repeat center center fixed ;
+    background-size: cover;
+   
+    color: brown;
+}
+/*Überschrift der Website*/
+#hometitle{
+    color: darkolivegreen;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline dotted;
+    margin-top: 15px;
+}
+main h3{
+    text-decoration: underline;
+    color: black;
+}
+/* main{
+    
+} */
+
+
+.p_cls01{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p_cls02{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    font-display: inherit;
+}
+.p_cls03{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: italic;
+}
+.p_cls04{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.monogross{
+    color:black;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+
+#viereck{
+    width: 300px;
+    height: 300px;
+    background-color: #b2d3e6;
+}
+footer nav{
+    text-align: right;
+}
+#gLink:hover{
+    color:red;
+}
+main .content .middle p{
+    color: green;
+}
+
+p{
+    color: blue;
+    margin: 5px;
+}

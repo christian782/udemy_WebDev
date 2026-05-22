@@ -1,0 +1,73 @@
+body{
+    background-color: lightgray;
+}
+
+ol{
+    background-color:#1A5774;
+    padding: 10px;
+    list-style-type: decimal-leading-zero;
+}
+ol h5{
+    margin: 5px;
+
+}
+ol li{
+    margin:15px;
+    background-color: #1A2B74;
+}
+
+ul{
+
+}
+ul h5{
+    margin: 1px;
+}
+
+table{
+ border: 2px solid black;
+ width: 100%;
+ border-collapse: collapse;
+}
+th{
+    background-color: bisque;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+td{
+    border: 2px dashed blue;
+}
+thead{
+ font-weight: bold;
+ text-align: center;
+}
+h4{
+    text-align: center;
+}
+table.tbl_WM2018{
+    margin: auto;
+    border: 2px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+table.tbl_WM2018 th{
+    background-color: rgba(14, 199, 145, 0.25);
+    color:white;
+}
+table.tbl_WM2018 tr td{
+    text-align: center;
+    border: 2px solid black;
+}
+table.tbl_WM2018 tr td:first-child{
+    width: 10%;
+}
+table.tbl_WM2018 tr td:nth-child(3){
+    width: 10%;
+}
+table.tbl_WM2018 tr td:last-child{
+    width: 10%;
+}
+table.tbl_WM2018 tr td:nth-child(2){
+    font-weight: bolder;
+    hyphens: auto;
+}
