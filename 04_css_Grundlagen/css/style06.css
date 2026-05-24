@@ -1,0 +1,31 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2018/03/25/10/01/school-3258934_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    color: wheat;
+    text-align: center;
+    font-size: 5em;
+    text-decoration: underline;
+}
+img{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+
+    size: 200%;
+}
+.content{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+    text-align: center;
+}
+#p01{
+    font-size: 400%;
+}
+#p02{
+    font-size: 200%;
+}

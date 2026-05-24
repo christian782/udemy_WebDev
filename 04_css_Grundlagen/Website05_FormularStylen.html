@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/style05.css">
+  <title>Formulare stylen von Webseiten</title>
+</head>
+<body>
+  <header>
+    <h1>Formulare stylen von Webseiten.</h1>
+  </header>
+  <main>
+    <form action="/register.php">
+        <label for="username">Benutzername</label>
+        <input type="text" name="username" id="username" placeholder="Dein Benutzername..">
+        <label for="password">Passwort</label>
+        <input type="password" name="password" id="password" placeholder="Dein Passwort...">
+        <label for="age-select">Wie alt bist du?</label>
+        <select name="age" id="age-select">
+            <option value="unter20">unter 20</option>
+            <option value="ab20">über 20</option>
+            <option value="ab65">über 65</option>
+        </select>
+        <input type="submit" name="reg" id="submit"value="Registieren">
+    </form>
+  </main>
+  <footer>
+  </footer>
+  <script src="js/script05.js"></script>
+</body>
+</html>
