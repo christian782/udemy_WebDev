@@ -1,0 +1,38 @@
+body{
+    background-color: darkgrey;
+}
+button{
+    background-color: aqua;
+    margin: 10px;
+    width: 40vw;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.dataInput{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    align-items: center;
+}
+.dataInput input{
+ border: 2px solid black;
+ border-radius:  4px;
+}
+
+#sendButton{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+}
+#console{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: min-content;
+    text-align: center;
+}
