@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+#top{
+   background-color: #2d99ec ; 
+   color : white;
+   text-decoration: dotted;
+   font-size: 3rem;
+   text-align: center;
+   padding-top: 2rem;
+   height: 6rem;
+   border-radius: 5px;
+}
+
+#nextQuote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 250px;
+    background-color: #2d99ec;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 1.75rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+#content{
+    display: inline-flex;
+    padding : 2rem;
+    position: relative;
+    align-items: center;
+    margin: 1rem auto 1rem auto;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 95vw;
+    min-height: 100px;
+}
+
+#quote{
+    margin: 0.75rem auto 1.5rem auto;
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
+}
+#author{
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}

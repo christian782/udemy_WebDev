@@ -36,3 +36,30 @@ h1{
     height: min-content;
     text-align: center;
 }
+
+#colorBox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 10vh;
+    background-color:  white;
+    border:  black 2px solid;
+    border-radius: 5px;
+}
+#colorValue{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: white;
+    mix-blend-mode: difference;
+    font-size:  2rem;
+}
+#rButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: beige;
+    height: 2rem;
+}
