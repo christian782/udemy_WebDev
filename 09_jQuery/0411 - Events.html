@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Selektoren mit jQuery</title>
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jQuery-4.0.0.min.js"></script>
     <style>
         #div1{
             width: 100px;
@@ -23,38 +23,31 @@
         </form>
         
         <div id="div1">INHALT</div>
+        <div id="content">
+            <p>X-Koordinaten:<span id="xValue"></span></p>
+            <p>Y-Koordinaten:<span id="yValue"></span></p>
+        </div>
     </div>
     <script>
         // e ist hierbei das event.
-       $("#div1").on("click", function(e){
+       $("#div1").click(function(e){
            // was bei einem Klick ausgeführt werden soll
            e.currentTarget.innerHTML = "Wurde geklickt";
        });
-       /*
-       $("#div1").hover(function(){
-           // was bei einem Klick ausgeführt werden soll
-           $("#div1").css("background-color", "violet");
-       });
-       */
-       $("#div1").on("mouseenter", function(e){
-           // was beim Eintreten der Maus auf das Element ausgeführt werden soll
-           $("#div1").css("background-color", "black");
-           e.currentTarget.innerHTML = "mouseenter";
-       });
-       /*
-       $("#div1").on("mousemove", function(e){
-           // was beim Bewegen der Maus darin ausgeführt werden soll
-           $("#div1").css("background-color", "red");
-           e.currentTarget.innerHTML = "mousemove"
-       });
-       */
-       $("#div1").on("mouseleave", function(e){
+       
+       $("body").mousemove( (e)=>{
+              
+           $("#xValue").text(e.pageX);
+           $("#yValue").text(e.pageY); 
+       })
+     
+       $("#div1").mouseleave(function(e){
             // was beim Austreten der Maus auf das Element ausgeführt werden soll
             $(this).css("background-color", "blue");
             e.currentTarget.innerHTML = "mouseleave";
        });
        
-       $("input").focus(function(){
+       $("input").on('focus', function(){
            $(this).css("background", "yellow");
        })
     
